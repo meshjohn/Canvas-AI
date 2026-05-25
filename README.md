@@ -51,10 +51,8 @@ An interactive, AI-powered infinite canvas workspace designed for visual thinkin
 |---|---|
 | Next.js (App Router) | Application framework |
 | React | UI rendering |
-| Fabric.js / ReactFlow / HTML5 Canvas API | Canvas rendering engine |
-| Zustand | High-frequency state management |
 | Tailwind CSS | Styling system |
-| Radix UI / shadcn/ui | Accessible UI components |
+| shadcn/ui | Accessible UI components |
 | Lucide React | Icon system |
 
 ---
@@ -65,7 +63,6 @@ An interactive, AI-powered infinite canvas workspace designed for visual thinkin
 |---|---|
 | Node.js | Backend runtime |
 | Next.js API Routes | API layer |
-| FastAPI (Python) | AI orchestration services |
 | Vercel AI SDK | Streaming AI integration |
 | OpenAI SDK | GPT model integration |
 | Anthropic SDK | Claude model integration |
@@ -73,8 +70,6 @@ An interactive, AI-powered infinite canvas workspace designed for visual thinkin
 #### Supported Models
 - GPT-4o
 - Claude 3.5 Sonnet
-- Stable Diffusion
-- Midjourney API
 
 ---
 
