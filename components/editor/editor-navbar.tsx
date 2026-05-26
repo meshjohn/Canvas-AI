@@ -30,8 +30,6 @@ export function EditorNavbar({
 }: EditorNavbarProps) {
   return (
     <header className="flex h-14 shrink-0 items-center justify-between border-b border-border-default/60 bg-bg-surface/85 backdrop-blur-md px-3 sm:px-4 relative z-40">
-      {/* Neon Top Glow Accent */}
-      <div className="absolute top-0 left-0 right-0 h-[1.5px] bg-gradient-to-r from-accent-primary/20 via-accent-primary to-accent-ai opacity-85" />
 
       <div className="flex min-w-0 items-center gap-3">
         <Button variant="ghost" size="icon" onClick={onToggle} className="touch-target">
