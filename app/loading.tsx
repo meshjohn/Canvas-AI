@@ -2,7 +2,7 @@ import { Loader2 } from "lucide-react"
 
 export default function RootLoading() {
   return (
-    <div className="flex h-screen w-screen flex-col items-center justify-center bg-[#080809] text-[#f0f0f4] relative overflow-hidden">
+    <div className="flex h-[100dvh] w-screen flex-col items-center justify-center bg-[#080809] text-[#f0f0f4] relative overflow-hidden">
       {/* Ambient glowing backdrop */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[300px] rounded-full bg-[#00c8d4]/5 blur-[90px] pointer-events-none" />
 

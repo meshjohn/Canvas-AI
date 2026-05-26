@@ -18,7 +18,7 @@ export function EditorHomeClient({ ownedProjects, sharedProjects }: EditorHomeCl
   const actions = useProjectActions()
 
   return (
-    <div className="flex flex-col h-screen bg-bg-base">
+    <div className="flex flex-col h-[100dvh] overflow-hidden bg-bg-base">
       <EditorNavbar
         isOpen={sidebarOpen}
         onToggle={() => setSidebarOpen((prev) => !prev)}

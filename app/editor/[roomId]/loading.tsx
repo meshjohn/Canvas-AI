@@ -2,7 +2,7 @@ import { Loader2 } from "lucide-react"
 
 export default function WorkspaceRoomLoading() {
   return (
-    <div className="flex h-screen w-screen flex-col bg-[#080809] text-[#f0f0f4] overflow-hidden">
+    <div className="flex h-[100dvh] w-screen flex-col bg-[#080809] text-[#f0f0f4] overflow-hidden">
       {/* Top Navbar Skeleton */}
       <header className="flex h-14 shrink-0 items-center justify-between border-b border-[#2a2a30] bg-[#111114]/85 px-4 backdrop-blur-md relative z-10">
         <div className="flex items-center gap-3">
